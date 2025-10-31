@@ -20,8 +20,6 @@ Aprender a crear y configurar máquinas virtuales con **Vagrant**, utilizando **
 4. **Verificar servicios**
    - Web: http://192.168.56.10
    - PHP: http://192.168.56.10/info.php
-   - DB: PostgreSQL en 192.168.56.11:5432
-
 ## 📜 Scripts utilizados
 
 ### 🖥️ provision-web.sh
@@ -47,6 +45,8 @@ sudo -u postgres createdb -O appuser appdb
 
 ## 🖼️ Capturas de pantalla
 - index funcionando: ./captures/index.png
-- info.php funcionando: ./captures/info_php.png
+- info.php funcionando: ./captures/info.png
 - conexión base de datos: ./captures/db_connect.png
+
+  SUBI LOS ARCHIVOS DE MANERA MANUAL, LOS SCRIPTS ESTAN DENTRO DE LA CARPETA WEB.
 
